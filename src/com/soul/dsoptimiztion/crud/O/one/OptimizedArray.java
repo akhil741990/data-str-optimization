@@ -46,6 +46,7 @@ public class OptimizedArray<T> {
 		
 		// re-indexing accordingly
 		indexer.put(lastData, index);
+		indexer.remove(data);
 	}
 	
 	
